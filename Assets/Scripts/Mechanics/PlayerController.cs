@@ -80,10 +80,6 @@ namespace Platformer.Mechanics
             }
             UpdateJumpState();
 
-            if(transform.position.y <= -10f){
-                 UnityEngine.SceneManagement.SceneManager.LoadScene(
-                    UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
-            }
             base.Update();
         }
 
